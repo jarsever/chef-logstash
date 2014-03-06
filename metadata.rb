@@ -11,7 +11,7 @@ version          '0.8.0'
   supports os
 end
 
-%w{ build-essential runit git ant java logrotate rabbitmq yum python }.each do |ckbk|
+%w{ build-essential runit git ant java logrotate rabbitmq python }.each do |ckbk|
   depends ckbk
 end
 
