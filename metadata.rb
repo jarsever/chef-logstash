@@ -15,6 +15,6 @@ end
   depends ckbk
 end
 
-%w{ yum apt }.each do |ckbk|
+%w{ apt }.each do |ckbk|
   recommends ckbk
 end
